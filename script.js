@@ -21,7 +21,12 @@ class Veicolo {
     informazioni() {
         return `${this.marca} ${this.anno} ${this.colore}`
     }
-    
+
+  
+    calcolaEta() {
+        const currentYear = new Date().getFullYear();
+        return currentYear - this.anno;
+    }
 }
 
 
