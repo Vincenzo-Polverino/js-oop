@@ -32,3 +32,4 @@ class Veicolo {
 
 const fiat = new Veicolo('Fiat', 2019, 'blu')
 
+console.log(`Una ${fiat.informazioni()} di ${fiat.calcolaEta()} anni`);
